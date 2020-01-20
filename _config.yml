@@ -1,11 +1,11 @@
 # Site settings
 author: Amanda Rowe
-title: 
+title: Learning Data Science
 header-img: img/home-bg.png
 email: rowe.as@gmail.com
 copyright_name: Amanda Rowe
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Shifting from Math Teaching to Data Analysis
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  roweyerboat
