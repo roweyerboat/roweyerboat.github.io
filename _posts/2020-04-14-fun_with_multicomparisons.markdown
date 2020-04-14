@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Fun with Multicomparisons"
-date:       2020-04-14 06:24:00 +0000
+date:       2020-04-14 02:24:01 -0400
 permalink:  fun_with_multicomparisons
 ---
 
 
-Z, T, P, F, chi-square... when it comes to hypothesis testing, we have many different test statistics from which to choose.  If you've taken a high school level statistics course, you most likely have been exposed to Z and T tests.  These are heavily covered in the AP Statistics curriculum, but in case you forgot - here's a brief rundown of how these work.  Z-tests are used when we are testing hypotheses about the population mean when we know the population standard deviation.  We can also use Z-tests when we are testing population proportions.  Most of the time, we don't have access to the populatino standard deviation, so we use a t-test.  Now there are actually two t-tests that we can use.  The first and the common one taught is the student's t-test.  There's a great story about why it's called student's, you can watch a video about it [here](https://www.youtube.com/watch?v=32CuxWdOlow).   The other t-test that can be used when the comparing two means that have different variances (student's t-test assumes that they have the same variance) is called the Welch's t-test.  
+Z, t, p, f, chi-square... when it comes to hypothesis testing, we have many different test statistics from which to choose.  If you've taken a high school level statistics course, you most likely have been exposed to z and t tests.  These are heavily covered in the AP Statistics curriculum, but in case you forgot - here's a brief rundown of how these work.  z-tests are used when we are testing hypotheses about the population mean when we know the population standard deviation.  We can also use z-tests when we are testing population proportions.  Most of the time, we don't have access to the population standard deviation, so we use a t-test.  Now there are actually two t-tests that we can use.  The first and the common one taught is the student's t-test.  There's a great story about why it's called student's, you can watch a video about it [here](https://www.youtube.com/watch?v=32CuxWdOlow).   The other t-test that can be used when the comparing two means that have different variances (student's t-test assumes that they have the same variance) is called the Welch's t-test.  
 
 However, these tests are not why we are here today.  While these are very important and can help use determine difference between two means, what about if we have more than two means that we want to compare?  For example, say you want to figure out which level of discount influences how much customers purchase in an order at your store, if it does influence at all.  
 
@@ -24,7 +24,8 @@ First here's the code and the result of creating a linear model:
 Second we run the ANOVA test using statsmodel library (sm)
 ![](https://i.imgur.com/dmb6BU5l.png)
 
-We can see from the output that our p-value is large and so even if there's statistical significance between discounted and nondiscounted orders.  There isn't a statistical significance of how much is ordered and  the level of discount.  If we want to investigate further we can run a Tukey test.  This output shows us comparison of each observation with each of the others.
+We can see from the output that our p-value is large and so even if there's statistical significance between discounted and nondiscounted orders there isn't a statistical significance of how much is ordered and  the level of discount.  If we want to investigate further we can run a Tukey test.  This test compares each mean with the other means to see if there is a significant difference.
+
 ![](https://i.imgur.com/tIXzg9kl.png)
 
 Once again, each comparison fails to show a significant difference in the discount level and the order size. 
