@@ -24,9 +24,9 @@ I began to think more deeply about what the data represented: people without acc
 
 ![](https://i.imgur.com/jSyZQFp.png)
 
-When considering the need to be able to identify which wells needed attention, I decided to switch gears and change the labeling system from ternary to binary: functioning and needs repair.  Again my best model came from a Random Forest Algorithm.  This model was able to achieve an accuracy rating of .81 after tuning using GridSearchCV. While that .02 percentage of accuracy is not that large, if it means a village that is desparate for a working well gets attention, then every gain makes a difference.  Below is the heatmap of my final model.  
+When considering the need to be able to identify which wells needed attention, I decided to switch gears and change the labeling system from ternary to binary: functioning and needs repair.  Again my best model came from a Random Forest Algorithm.  This model was able to achieve an accuracy rating of .81 after tuning using GridSearchCV. While that .02 percentage of accuracy is not that large, if it means a village that is desparate for a working well gets attention, then every gain makes a difference.  Below is the normalized heatmap of my final model.  
 
-![](https://i.imgur.com/TZBCoJv.png)
+![](https://i.imgur.com/qGE1Lev.png)
 
 It's good to take the time to put myself out there in and see where I land and my opportunity to grow and improve.  Through it all, learning how to improve can have a calcuable impact on the decisions made using data to improve the lives of people.  Keeping that in mind encourages me to continue to learn.
 
