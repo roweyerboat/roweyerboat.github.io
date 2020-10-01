@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Analyzing a Single Hashtag"
-date:       2020-10-01 18:09:27 +0000
+date:       2020-10-01 14:09:28 -0400
 permalink:  analyzing_a_single_hashtag
 ---
 
@@ -248,3 +248,7 @@ We can see with both the LSA and the LDA that the main topics of tweets with the
 * side by side comparing with major news outlets
 * side by side comparing with politicians statements or tweets
 * digging deeper into the engagement of these tweets with likes and retweets and seeing which tweets have more impact
+
+The full [github repository](https://github.com/roweyerboat/Capstone_Project) of the project.
+
+Thank you!
