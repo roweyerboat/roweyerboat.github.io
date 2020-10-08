@@ -249,6 +249,6 @@ We can see with both the LSA and the LDA that the main topics of tweets with the
 * side by side comparing with politicians statements or tweets
 * digging deeper into the engagement of these tweets with likes and retweets and seeing which tweets have more impact
 
-The full [github repository](https://github.com/roweyerboat/Capstone_Project) of the project.
+The full [github repository](https://github.com/roweyerboat/Twitter_Hashtag_Analysis) of the project.
 
 Thank you!
