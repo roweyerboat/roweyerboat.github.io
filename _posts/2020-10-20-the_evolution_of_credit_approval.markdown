@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Evolution of Credit Approval"
-date:       2020-10-20 21:47:13 +0000
+date:       2020-10-20 17:47:14 -0400
 permalink:  the_evolution_of_credit_approval
 ---
 
@@ -30,7 +30,7 @@ The problem with implementing this was there was no current measurement for the 
 
 This risk is fascinating, as such a small bank could have easily lost on this gamble, but instead, they became a leader in credit card operations.
 
-While some of you may already be aware, while Signet Bank is one you haven't heard of, I'm sure you've gotten a mailer or two from its spin-off: Captial One. 
+While some of you may already be aware, while Signet Bank is one you haven't heard of, I'm sure you've gotten a mailer or two from its spin-off: Capital One. 
 
 This is a fascinating example of how being willing to accept the costs of data acquisition lead to a strategic advantage in a business. 
 
