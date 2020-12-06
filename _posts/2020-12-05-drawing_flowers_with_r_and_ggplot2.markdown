@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Drawing Flowers with R and ggplot2"
-date:       2020-12-06 04:25:09 +0000
+date:       2020-12-05 23:25:10 -0500
 permalink:  drawing_flowers_with_r_and_ggplot2
 ---
 
 
-Insert R picture
+![R language image](https://i.imgur.com/1J7ARLC.png)
 
 In getting more familiar with R programming language, I wanted to spend some time getting to know ggplot2. ggplot2 is the graphing library for R that is similar to Python's matplotlib and seaborn. 
 
